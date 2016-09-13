@@ -1,0 +1,12 @@
+- back end
+-- scaffold (express generator)
+-- npm install any other stuff we need
+-- set the headers
+- front end
+-- boilerplate
+-- angular
+-- compass
+-- git init
+-- .gitignore file
+
+--$http service to talk to our API
