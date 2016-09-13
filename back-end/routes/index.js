@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 //include the mogoose module
 var mongoose = require('mongoose');
-//Set up the mongourl that we will connect to. Mongo listens on 27010, the path is the db we will use
+//Set up the mongourl that we will connect to. Mongo listens on 27017, the path is the db we will use
 var mongoUrl = "mongodb://localhost:27017/searchApp";
 // Include our students model. IT is a mongoose model so it will automaticalls use the db that mongoose conenects to
 var Student = require('../models/students');
